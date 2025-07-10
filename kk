@@ -37,3 +37,4 @@ for token in word_tokens:
     if token not in stopwords:
         tokens_stopwords.append(token)
 print(' '.join(tokens_stopwords))
+print()
